@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace DIP.BadExample
 {
-    public class Email
+    public class SalaryCalculator
     {
-        public void sendEmail()
-        {
-            //Email gönder... Email gönderen sınıfımız..
-        }
+        public float CalculateSalary(int hoursWorked, float hourlyRate) => hoursWorked * hourlyRate;
     }
 }
