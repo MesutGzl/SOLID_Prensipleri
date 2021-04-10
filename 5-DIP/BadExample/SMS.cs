@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace DIP.BadExample
 {
-    public class SalaryCalculator
+    public class SMS
     {
-        public int CalculateSlary(int hoursWorked, int hourlyRate) => hoursWorked * hourlyRate;
+       public void sendSMS()
+        {
+            //SMS gönder.... Sms gönderen sınıfımız.
+        }
     }
 }
