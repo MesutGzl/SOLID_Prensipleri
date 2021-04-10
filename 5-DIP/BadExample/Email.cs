@@ -10,7 +10,7 @@ namespace DIP.BadExample
     {
         public void sendEmail()
         {
-            //Email gönder... Email gönderen sınıfımız.
+            //Email gönder... Email gönderen sınıfımız..
         }
     }
 }
